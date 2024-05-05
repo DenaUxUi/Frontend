@@ -1,0 +1,25 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+@media (max-width: 1000px) {
+    .square {
+        background-color: rgb(255, 0, 0); 
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    .square {
+        width: 0px;
+        height: 0px;
+        border-radius: 0px;
+        background-color: rgb(44, 42, 165, 000);
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid blue;
+        transform: rotate(0deg); /* Повернуть треугольник на 45 градусов */
+    }
+}

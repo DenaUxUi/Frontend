@@ -1,0 +1,14 @@
+.base{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    transition: 10s;
+    text-align: center;
+    align-items: center;
+}
+.base:hover{
+    margin-left: 1000px;
+}
+body{
+    background-color: burlywood;
+}

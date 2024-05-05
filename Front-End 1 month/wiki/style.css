@@ -1,0 +1,55 @@
+body {
+    background-size: cover;
+    background-image: url(./1702393955_kalix-club-p-fon-temnii-gradient-instagram-1.jpg);
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make sure the body takes the full height of the viewport */
+}
+
+header {
+    text-align: center;
+}
+
+.text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 6px;
+    color: white;
+    width: auto; /* Set width to auto to allow content to determine width */
+    height: 25px;
+    transition: 0.3s;
+    padding: 18px 48px; /* Adjust padding */
+    text-align: center;
+    display: flex;
+    border: 1px solid gray;
+    align-items: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px;
+}
+
+.btn img {
+    object-fit: contain;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #F0F0F0;
+    color: black;
+}
+

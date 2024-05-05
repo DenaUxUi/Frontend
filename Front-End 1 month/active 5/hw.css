@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(39, 39, 39);
+}
+
+.block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 820px;
+    height: 400px;
+    align-items: center;
+}
+
+.square {
+}
+
+.page-link {
+}
+
+.page-link:hover {
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    background-image: url(./beautiful-nature-landscape-with-mountains-and-lake_23-2150706051.avif);
+    transition: transform 0.3s ease-in-out; 
+    background-size: cover;
+}
+
+.box:hover {
+    transform: scale(0.95); 
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.image {
+    width: 400px;
+    height: 190px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.image:hover {
+    transform: scale(0.98); 
+}
+
+.box-half,
+.box-half-second {
+    width: 400px;
+    height: 190px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.box-half:hover,
+.box-half-second:hover {
+    transform: scale(0.95); 
+}
+
+.box-half {
+    background-image: url(./a-landscape-with-a-lake-and-a-sunset-in-the-background_931646-9.avif);
+    margin-bottom: 20px;
+}
+
+.box-half-second {
+    margin-top: 20px;
+    background-image: url(./1660649965156093024.png);
+}

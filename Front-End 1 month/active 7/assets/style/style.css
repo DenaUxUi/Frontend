@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 164px;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    gap: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+
+    justify-content: left;
+}
+
+.burger {
+    width: 50px;
+    height: 50px;
+    box-shadow: -1px 1px 22px 7px rgba(34, 60, 80, 0.4) inset;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding-top: 1.2rem;
+    padding: 1rem;
+}
+
+.burger_col {
+    height: 2.4px;
+    background-color: #25202F;
+}
+
+.title { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+} 
+ 
+.title h3 { 
+    font-weight: 300; 
+    font-size: 24px; 
+} 
+
+.title h2{
+    font-weight: normal;
+    font-size: 24px;
+}
+ 
+.title h1 { 
+    font-weight: bold; 
+    font-size: 60px; 
+} 
+
+.title img{
+    width: 62px;
+    height: auto;
+}
+ 
+.container { 
+    display: flex; 
+    align-items: center; 
+    padding: 10px 164px; 
+    justify-content: space-between; 
+} 
+ 
+.baner img { 
+    width: 90%; 
+ 
+} 
+ 
+.btn { 
+    margin-top: 1rem; 
+    padding: 14px 49px; 
+    background-color: #8643DC; 
+    border-radius: 30px; 
+    color: white; 
+    width: fit-content;  
+    font-size: 24px; 
+ 
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.serv_container{
+    padding: 10px 164px; 
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head{
+    margin-right: 0px;
+    margin-left: 164px;
+}
+
+.sub_head{
+    margin-right: auto;
+    margin-left: 164px;
+    gap: 10px; 
+    color: #8643DC;
+}
+
+.sub_head hr{
+    background-color: #8643DC;
+    width: 50px;
+    height: 2px;
+}
+
+.box{
+    margin-top: 50px;
+}
+
+.head_box{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+}
+
+.title_box{
+    margin-top: 22px;
+    width: 350px;
+    height: auto;
+    text-align: left;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #47444E;
+    line-height: 24px;
+}

@@ -1,0 +1,18 @@
+.col{
+    transition: 10s;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 247, 255);
+    margin: 10px;
+    border-radius: 25%;
+    transform: rotate(3600000000000000000turn);
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    background-color: grey;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
