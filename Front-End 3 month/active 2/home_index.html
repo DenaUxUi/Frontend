@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JSON Data Viewer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .input-field {
+      margin-bottom: 20px;
+    }
+    .button {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #3e8e41;
+    }
+    .data-container {
+      margin-top: 20px;
+    }
+    .data-item {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>JSON Data</h2>
+    <div class="input-field">
+      <input type="number" id="id" placeholder="Enter ID (1-10)">
+      <button class="button" id="get-data">Get Data</button>
+    </div>
+    <div class="data-container">
+      <h3>Data:</h3>
+      <div id="data"></div>
+    </div>
+  </div>
+
+  
+
+  <script src="./home_main.js"></script>
+</body>
+</html>
