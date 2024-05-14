@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./176037-uzor-fraktalnoe_iskusstvo-dizajn-korichnevyj_cvet-seryj_cvet-1920x1080.jpg);
+    background-size: cover;
+}
+
+.wrapper{
+    width: 500px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper-title{
+    color: white;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.wrapper-row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.wrapper-item{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: #291e3510;
+    backdrop-filter: blur(4px);
+    width: 120px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.wrapper-item h1{
+    font-size: 54px;
+    font-weight: bold;
+}
+.wrapper-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    visibility: hidden;
+}
+.wrapper-item span{
+    font-size: 27px;
+}
