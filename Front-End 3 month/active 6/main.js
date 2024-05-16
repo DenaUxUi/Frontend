@@ -13,7 +13,7 @@ const formatNum = (num) =>{
 
 const birthdayTime = setInterval(()=>{
     let date = new Date();
-    let nursultan = new Date(2024, 4, 15, -11, -31);
+    let nursultan = new Date(2024, 4, 15);
     let difference = Date.parse(nursultan) - Date.parse(date);
     let gift = document.getElementById("textGift");
     
@@ -27,7 +27,7 @@ const birthdayTime = setInterval(()=>{
     minutes.textContent = formatNum(minutesValue);
     seconds.textContent = formatNum(secondsValue);
     
-    if(daysValue === 0 && hoursValue === 0 && minutesValue === 0 && secondsValue === 0){
+    if(difference <= 0){
         clearInterval(birthdayTime);
         gift.style.visibility = "visible"
 
