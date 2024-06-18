@@ -57,3 +57,11 @@ restart.onclick = () =>{
     clearTimeout(timeout);
 }
 
+function changeImage() {
+    var image = document.getElementById('start');
+    if (image.src.match("image.png")) {
+        image.src = "pushin.gif";
+    } else {
+        image.src = "image.png";
+    }
+}

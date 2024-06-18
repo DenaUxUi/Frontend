@@ -1,0 +1,36 @@
+.format_block{
+    width: 300px;
+    height: 300px;
+    background: black;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 20px inset linear-gradient(90deg, rgba(117,0,196,1) 0%, rgba(0,25,175,1) 50%, rgba(0,251,255,1) 100%);
+    border-radius: 8px;
+    /* background: rgb(117,0,196); */
+    /* background: linear-gradient(90deg, rgba(117,0,196,1) 0%, rgba(0,25,175,1) 50%, rgba(0,251,255,1) 100%); */
+    
+}
+.text{
+    font-weight: light;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    align-items: center;
+}
+.blue-text{
+    color: blue;
+    transition: 0.5s;
+}
+.blue-text:hover{
+    color: black;
+}
+.yellow-text{
+    color: yellow;
+}
+.red-text{
+    color: red;
+}
+       
+       
+       
+    /* Допишите недостающие стили */ 
